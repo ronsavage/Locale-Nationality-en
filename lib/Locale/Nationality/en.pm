@@ -3,7 +3,7 @@ package Locale::Nationality::en;
 use strict;
 use warnings;
 
-our @names;
+our $names;
 our $VERSION = '1.00';
 
 # -----------------------------------------------
@@ -12,7 +12,7 @@ sub names
 {
 	my($self) = @_;
 
-	return [@names];
+	return $names;
 
 } # End of names.
 
@@ -21,7 +21,7 @@ sub names
 sub new
 {
 	my($class) = @_;
-	@names     = qw/
+	$names     = [qw/
 Afghan
 Albanian
 Algerian
@@ -223,7 +223,7 @@ Welsh
 Yemenite
 Zambian
 Zimbabwean
-/;
+/];
 	return bless({}, $class);
 
 }	# End of new.
@@ -231,7 +231,6 @@ Zimbabwean
 # -----------------------------------------------
 
 1;
-
 
 __END__
 
@@ -286,7 +285,7 @@ Returns a sorted array ref of names.
 
 =head1 Credits
 
-L<Guava Studios|http://www.guavastudios.com/nationality-list.htm>.
+L<Guava Studios supplied the list|http://www.guavastudios.com/nationality-list.htm>.
 
 =head1 Author
 
