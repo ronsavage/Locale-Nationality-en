@@ -19,8 +19,8 @@ WriteMakefile
 		COMPRESS => 'gzip',
 		SUFFIX   => 'gz'
 	},
-	DISTNAME  => 'Locale::Nationality::en',
-	NAME      => 'Locale-Nationality-en',
+	DISTNAME  => 'Locale-Nationality-en',
+	NAME      => 'Locale::Nationality::en',
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
