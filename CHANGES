@@ -1,4 +1,9 @@
 Revision history for Perl extension Locale::Nationality::en.
 
+1.01  Sun Dec  5 10:24:00 2010
+	- Set required version of Test::Pod to 1.44 so L<text|url> is acceptable.
+		Thanx to CPAN testers.
+	- Set required version of Test::More to 0.96.
+
 1.00  Mon Apr 25 17:51:00 2010
 	- Original version
