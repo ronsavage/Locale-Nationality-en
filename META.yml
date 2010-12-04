@@ -3,8 +3,8 @@ abstract: Locale::Nationality::en
 author:
   - 'Ron Savage <ron@savage.net.au>'
 build_requires:
-  Test::More: 0
-  Test::Pod: 0
+  Test::More: 0.96
+  Test::Pod: 1.44
 configure_requires:
   Module::Build: 0.36
 generated_by: 'Module::Build version 0.3607'
@@ -16,7 +16,7 @@ name: Locale-Nationality-en
 provides:
   Locale::Nationality::en:
     file: lib/Locale/Nationality/en.pm
-    version: 1.00
+    version: 1.01
 resources:
   license: http://www.perlfoundation.org/artistic_license_1_0
-version: 1.00
+version: 1.01

@@ -1,4 +1,5 @@
 Build.PL
+Changelog.ini
 CHANGES
 lib/Locale/Nationality/en.pm
 Makefile.PL
