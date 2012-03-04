@@ -236,7 +236,7 @@ __END__
 
 =head1 NAME
 
-C<Locale::Nationality::en> - English names of nationalities
+Locale::Nationality::en - English names of nationalities
 
 =head1 Synopsis
 
