@@ -4,7 +4,7 @@ Module::Build -> new
 (
  module_name    => 'Locale::Nationality::en',
  license        => 'artistic',
- dist_abstract  => 'Locale::Nationality::en',
+ dist_abstract  => 'English names of nationalities',
  dist_author    => 'Ron Savage <ron@savage.net.au>',
  build_requires =>
  {
