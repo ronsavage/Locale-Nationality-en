@@ -1,6 +1,6 @@
 Revision history for Perl extension Locale::Nationality::en.
 
-1.02  Tue Feb 15 16:53:00 2011
+1.02  Unreleased
 	- Replace /usr/bin/perl with /usr/bin/env perl.
 	- Replace common::sense with use strict and use warnings, to get uninit var warnings.
 
