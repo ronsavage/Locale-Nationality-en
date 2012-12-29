@@ -21,6 +21,7 @@ WriteMakefile
 	},
 	DISTNAME  => 'Locale-Nationality-en',
 	NAME      => 'Locale::Nationality::en',
+	LICENSE   => 'perl_5',
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
