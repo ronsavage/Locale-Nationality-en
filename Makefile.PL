@@ -25,8 +25,8 @@ WriteMakefile
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
-		Test::More => 0.96,
-		Test::Pod  => 1.44,
+		Test::Simple=> 0.96,
+		Test::Pod  => 1.45,
 	},
 	VERSION_FROM => 'lib/Locale/Nationality/en.pm',
 );
