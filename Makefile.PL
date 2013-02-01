@@ -26,7 +26,7 @@ WriteMakefile
 	PREREQ_PM =>
 	{
 		Test::More=> 0.96,
-		Test::Pod  => 1.45,
+#		Test::Pod  => 1.45, # Make it optional. See t/pod.t
 	},
 	VERSION_FROM => 'lib/Locale/Nationality/en.pm',
 );
