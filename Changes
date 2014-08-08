@@ -1,6 +1,8 @@
 Revision history for Perl extension Locale::Nationality::en.
 
-1.02  Unreleased
+1.02  Fri Aug  8 13:51:00 2014
+	- Rename CHANGES to Changes, as per CPAN::Changes::Spec.
+	- Fix typo in t/test.t which produced test errors and hence fails.
 	- Replace /usr/bin/perl with /usr/bin/env perl.
 	- Replace common::sense with use strict and use warnings, to get uninit var warnings.
 
