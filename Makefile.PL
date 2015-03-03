@@ -1,5 +1,7 @@
 use ExtUtils::MakeMaker;
 
+# ----------------
+
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 
@@ -9,7 +11,7 @@ WriteMakefile
 	(
 		AUTHOR   => 'Ron Savage (ron@savage.net.au)',
 		ABSTRACT => 'English names of nationalities',
-    ) : (),
+		) : (),
 	clean =>
 	{
 		FILES => 'blib/* Makefile MANIFEST Locale-Nationality-en-*'
@@ -25,8 +27,8 @@ WriteMakefile
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
-		Test::More=> 0.96,
-#		Test::Pod  => 1.45, # Make it optional. See t/pod.t
+		'Test::More' => 1.001014,
+		'Test::Pod' => 1.48,
 	},
 	VERSION_FROM => 'lib/Locale/Nationality/en.pm',
 );
