@@ -1,5 +1,15 @@
 Revision history for Perl extension Locale::Nationality::en.
 
+1.03  Wed Nov 25 08:37:00 2014
+	- Fix quoting of country names which split names with internal spaces.
+		See RT#109597. Many thanx to Nicolas Mendonza for the report.
+	- Add github repo https://github.com/ronsavage/Locale-Nationality-en.
+	- Remove Build.PL.
+	- Move t/pod.t to xt/author/.
+	- Switch from Test::More to Test::Stream.
+	- Add .gitignore to MANIFEST.SKIP.
+	- Update docs.
+
 1.02  Fri Aug  8 13:51:00 2014
 	- Rename CHANGES to Changes, as per CPAN::Changes::Spec.
 	- Fix typo in t/test.t which produced test errors and hence fails.

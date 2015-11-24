@@ -26,8 +26,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Test::More" : "1.001014",
-            "Test::Pod" : "1.48"
+            "Test::Pod" : "1.48",
+            "Test::Stream" : "1.302026"
          }
       }
    },

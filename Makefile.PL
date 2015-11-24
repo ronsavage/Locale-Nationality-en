@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 
-WriteMakefile
+my(%params) =
 (
 	($] ge '5.005') ?
 	(
@@ -27,8 +27,37 @@ WriteMakefile
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
-		'Test::More' => 1.001014,
+		'Test::Stream' => 1.302026,
 		'Test::Pod' => 1.48,
 	},
 	VERSION_FROM => 'lib/Locale/Nationality/en.pm',
 );
+
+if ( ($ExtUtils::MakeMaker::VERSION =~ /^\d\.\d\d$/) && ($ExtUtils::MakeMaker::VERSION > 6.30) )
+{
+	$params{LICENSE} = 'artistic_2';
+}
+
+if ($ExtUtils::MakeMaker::VERSION ge '6.46')
+{
+	$params{META_MERGE} =
+	{
+		'meta-spec' =>
+		{
+			version => 2,
+		},
+		resources =>
+		{
+			bugtracker	=> 'https://rt.cpan.org/Public/Dist/Display.html?Name=Locale-Nationality-en',
+			license		=> 'http://opensource.org/licenses/Artistic-2.0',
+			repository	=>
+			{
+				type => 'git',
+				url  => 'https://github.com/ronsavage/Locale-Nationality-en.git',
+				web  => 'https://github.com/ronsavage/Locale-Nationality-en',
+			},
+		},
+	};
+}
+
+WriteMakefile(%params);
