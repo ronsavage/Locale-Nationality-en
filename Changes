@@ -1,6 +1,6 @@
 Revision history for Perl extension Locale::Nationality::en.
 
-1.03  Wed Nov 25 08:37:00 2014
+1.03  2014-11-25T08:37:00
 	- Fix quoting of country names which split names with internal spaces.
 		See RT#109597. Many thanx to Nicolas Mendonza for the report.
 	- Add github repo https://github.com/ronsavage/Locale-Nationality-en.
@@ -10,16 +10,16 @@ Revision history for Perl extension Locale::Nationality::en.
 	- Add .gitignore to MANIFEST.SKIP.
 	- Update docs.
 
-1.02  Fri Aug  8 13:51:00 2014
+1.02  2014-08-08T13:51:00
 	- Rename CHANGES to Changes, as per CPAN::Changes::Spec.
 	- Fix typo in t/test.t which produced test errors and hence fails.
 	- Replace /usr/bin/perl with /usr/bin/env perl.
 	- Replace common::sense with use strict and use warnings, to get uninit var warnings.
 
-1.01  Sun Dec  5 10:24:00 2010
+1.01  2010-12-05T10:24:00
 	- Set required version of Test::Pod to 1.44 so L<text|url> is acceptable.
 		Thanx to CPAN testers.
 	- Set required version of Test::More to 0.96.
 
-1.00  Mon Apr 25 17:51:00 2010
+1.00  2010-04-25T17:51:00
 	- Original version
