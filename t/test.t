@@ -3,7 +3,7 @@ use warnings;
 
 use Locale::Nationality::en;
 
-use Test::Stream -V1;
+use Test::More;
 
 # ------------------------
 
