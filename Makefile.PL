@@ -21,21 +21,21 @@ my(%params) =
 		COMPRESS => 'gzip',
 		SUFFIX   => 'gz'
 	},
-	DISTNAME  => 'Locale-Nationality-en',
-	NAME      => 'Locale::Nationality::en',
-	LICENSE   => 'artistic_2',
-	PL_FILES  => {},
-	PREREQ_PM =>
+	DISTNAME		=> 'Locale-Nationality-en',
+	NAME			=> 'Locale::Nationality::en',
+	LICENSE			=> 'perl',
+	PL_FILES		=> {},
+	TEST_REQUIRES	=>
 	{
-		'Test::Stream' => 1.302026,
-		'Test::Pod' => 1.48,
+		'Test::Pod'		=> 1.51,
+		'Test::Simple'	=> 1.302052, # For Test::More.
 	},
 	VERSION_FROM => 'lib/Locale/Nationality/en.pm',
 );
 
 if ( ($ExtUtils::MakeMaker::VERSION =~ /^\d\.\d\d$/) && ($ExtUtils::MakeMaker::VERSION > 6.30) )
 {
-	$params{LICENSE} = 'artistic_2';
+	$params{LICENSE} = 'perl';
 }
 
 if ($ExtUtils::MakeMaker::VERSION ge '6.46')
@@ -49,7 +49,7 @@ if ($ExtUtils::MakeMaker::VERSION ge '6.46')
 		resources =>
 		{
 			bugtracker	=> 'https://rt.cpan.org/Public/Dist/Display.html?Name=Locale-Nationality-en',
-			license		=> 'http://opensource.org/licenses/Artistic-2.0',
+			license		=> 'http://dev.perl.org/licenses/',
 			repository	=>
 			{
 				type => 'git',

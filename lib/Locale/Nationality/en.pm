@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 our $names;
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 # -----------------------------------------------
 
@@ -314,7 +314,8 @@ Australian copyright (c) 2010, Ron Savage.
 
 	All Programs of mine are 'OSI Certified Open Source Software';
 	you can redistribute them and/or modify them under the terms of
-	The Artistic License 2.0.
+	The Perl License, a copy of which is available at:
+	http://dev.perl.org/licenses/
 
 L<Licenses|http://www.opensource.org/licenses/index.html>.
 
