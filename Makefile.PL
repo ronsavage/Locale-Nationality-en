@@ -48,7 +48,10 @@ if ($ExtUtils::MakeMaker::VERSION ge '6.46')
 		},
 		resources =>
 		{
-			bugtracker	=> 'https://rt.cpan.org/Public/Dist/Display.html?Name=Locale-Nationality-en',
+			bugtracker =>
+			{
+				web => 'https://rt.cpan.org/Public/Dist/Display.html?Name=Locale-Nationality-en',
+			},
 			license		=> 'http://dev.perl.org/licenses/',
 			repository	=>
 			{
